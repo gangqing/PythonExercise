@@ -25,3 +25,11 @@
 >
 >其中 df(x) = n - f(x) ， x -> x + dx
 
+### 题目21
+梯度下降法(公式一)：使用梯度下降法求解<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}" title="\sqrt{n}" />的值；
+
+>梯度下降法(公式一)的求解原理跟牛顿法差不多，唯一不同的地方是dx公式不一样，梯度下降法(公式一)的x的梯度是<img src="https://latex.codecogs.com/gif.latex?dx&space;=&space;\gamma&space;*&space;df(x)&space;*&space;\dot{f(x)}" title="dx = \gamma * df(x) * \dot{f(x)}" />
+>
+>其中<img src="https://latex.codecogs.com/gif.latex?\gamma" title="\gamma" />是步长。
+
+
