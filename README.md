@@ -19,6 +19,9 @@
 ### 题目8
 实现一个函数，可以求出两个整数的最大公约数。
 
+### 题目9
+河内塔：使用代码实现河内塔游戏的过程。
+
 ### 题目20
 牛顿法：使用牛顿法求解<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}" title="\sqrt{n}" />的值；
 
