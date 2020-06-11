@@ -18,15 +18,10 @@
 
 ### 题目20
 牛顿法：使用牛顿法求解$\sqrt{n}$的值；
->设$\sqrt{n} = x$,那么 $x^2 = n$,设$f(x) = x^2$,那么该问题就是求函数$f(x) = n$时的正解；
+
+>设<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}&space;=&space;x" title="\sqrt{n} = x" />,那么 <img src="https://latex.codecogs.com/gif.latex?x^2&space;=&space;n" title="x^2 = n" />,设<img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;x^2" title="f(x) = x^2" />,那么该问题就是求函数f(x) = n时的正解；
 >
->牛顿法：$\frac{df(x)}{dx} = \dot{f(x)}$,因此$dx = \frac{d(f(x))}{\dot{f(x)}}$,
+>牛顿法：<img src="https://latex.codecogs.com/gif.latex?\frac{df(x)}{dx}&space;=&space;\dot{f(x)}" title="\frac{df(x)}{dx} = \dot{f(x)}" />,因此<img src="https://latex.codecogs.com/gif.latex?dx&space;=&space;\frac{d(f(x))}{\dot{f(x)}}" title="dx = \frac{d(f(x))}{\dot{f(x)}}" />,
 >
->$其中 df(x) = n - f(x) ， x -> x + dx$
->
->设srqt(n) = x,那么 x^{2} = n,设$f(x) = x^2$,那么该问题就是求函数$f(x) = n$时的正解；
->
->牛顿法：$\frac{df(x)}{dx} = \dot{f(x)}$,因此$dx = \frac{d(f(x))}{\dot{f(x)}}$,
->
->$其中 df(x) = n - f(x) ， x -> x + dx$
+>其中 df(x) = n - f(x) ， x -> x + dx
 
