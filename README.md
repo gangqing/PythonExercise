@@ -20,7 +20,13 @@
 牛顿法：使用牛顿法求解$\sqrt{n}$的值；
 >设$\sqrt{n} = x$,那么 $x^2 = n$,设$f(x) = x^2$,那么该问题就是求函数$f(x) = n$时的正解；
 >
->牛顿法：$\frac{df(x)}{dx} = f^'(x)$,因此$dx = \frac{d(f(x))}{f^'(x)}$,
+>牛顿法：$\frac{df(x)}{dx} = \dot{f(x)}$,因此$dx = \frac{d(f(x))}{\dot{f(x)}}$,
+>
+>$其中 df(x) = n - f(x) ， x -> x + dx$
+>
+>设srqt(n) = x,那么 x^{2} = n,设$f(x) = x^2$,那么该问题就是求函数$f(x) = n$时的正解；
+>
+>牛顿法：$\frac{df(x)}{dx} = \dot{f(x)}$,因此$dx = \frac{d(f(x))}{\dot{f(x)}}$,
 >
 >$其中 df(x) = n - f(x) ， x -> x + dx$
 
