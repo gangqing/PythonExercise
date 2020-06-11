@@ -17,7 +17,7 @@
 猜姓：假设有一系列名字，例如：赵权孙武张邓林李王彭蓝黄梁方刘。请这些姓写在一些纸页上，让客户说出哪些纸页上有他的姓，由这些纸面你能准确说出客户的姓。请用尽量少的纸页设计一个方案。
 
 ### 题目20
-牛顿法：使用牛顿法求解$\sqrt{n}$的值；
+牛顿法：使用牛顿法求解<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}" title="\sqrt{n}" />的值；
 
 >设<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}&space;=&space;x" title="\sqrt{n} = x" />,那么 <img src="https://latex.codecogs.com/gif.latex?x^2&space;=&space;n" title="x^2 = n" />,设<img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;x^2" title="f(x) = x^2" />,那么该问题就是求函数f(x) = n时的正解；
 >
