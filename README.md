@@ -26,10 +26,30 @@
 >其中 df(x) = n - f(x) ， x -> x + dx
 
 ### 题目21
-梯度下降法(公式一)：使用梯度下降法求解<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}" title="\sqrt{n}" />的值；
+梯度下降法(GD1)：使用梯度下降法求解<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}" title="\sqrt{n}" />的值；
 
->梯度下降法(公式一)的求解原理跟牛顿法差不多，唯一不同的地方是dx公式不一样，梯度下降法(公式一)的x的梯度是<img src="https://latex.codecogs.com/gif.latex?dx&space;=&space;\gamma&space;*&space;df(x)&space;*&space;\dot{f(x)}" title="dx = \gamma * df(x) * \dot{f(x)}" />
+>梯度下降法(GD1)的求解原理跟牛顿法差不多，唯一不同的地方是dx公式不一样，梯度下降法(GD1)的x的梯度是<img src="https://latex.codecogs.com/gif.latex?dx&space;=&space;\gamma&space;*&space;df(x)&space;*&space;\dot{f(x)}" title="dx = \gamma * df(x) * \dot{f(x)}" />
 >
 >其中<img src="https://latex.codecogs.com/gif.latex?\gamma" title="\gamma" />是步长。
+
+### 题目22
+二分法求解<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}" title="\sqrt{n}" />的值；
+
+>设<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}&space;=&space;x" title="\sqrt{n} = x" />,那么 <img src="https://latex.codecogs.com/gif.latex?x^2&space;=&space;n" title="x^2 = n" />,设<img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;x^2" title="f(x) = x^2" />,那么该问题就是求函数f(x) = n时的正解；
+>
+>先初始化x1、x2，确保f(x1) < n , f(x2) > n，使xm = (x1+x2)/2，判断f(xm)与n的大小关系，从而更新x1或x2的值，重复多次，直到f(xm)与n的误差在可接受的范围内。
+>
+
+### 题目23
+梯度下降法(GD2)：使用梯度下降法求解<img src="https://latex.codecogs.com/gif.latex?\sqrt{n}" title="\sqrt{n}" />的值；梯度下降法(GD2)是在公式一的基础上做了优化，梯度中去掉了df(x),使得<img src="https://latex.codecogs.com/gif.latex?dx&space;=&space;\gamma&space;*&space;\dot{f(x))}" title="dx = \gamma * \dot{f(x))}" />因为少了df(x)，所以GD2不能求解特定值的解，而是求函数的最小值解，但可以改造原函数，使得其可以求解特定值的解。
+
+>使 <img src="https://latex.codecogs.com/gif.latex?g(x)&space;=&space;(f(x)&space;-&space;n)^2" title="g(x) = (f(x) - n)^2" />,求g(x)的最小值解，即是求f(x) = n时的解
+>
+
+### 题目24
+使用GD2求<img src="https://latex.codecogs.com/gif.latex?f(x1,x2)&space;=&space;(x1&space;-&space;3)^2&space;&plus;&space;(x2&space;&plus;&space;4)^2" title="f(x1,x2) = (x1 - 3)^2 + (x2 + 4)^2" />的最小值时的解。
+
+### 题目25
+GD1、GD2练习
 
 
